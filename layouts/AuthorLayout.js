@@ -4,7 +4,7 @@ import Link from '@/components/Link'
 import Experience from '@/components/Experience'
 import experienceData from '@/data/experienceData'
 import { RoughNotation } from 'react-rough-notation'
-import { AiOutlineTwitter } from 'react-icons/ai'
+import { AiOutlineLinkedin, AiOutlineTwitter } from 'react-icons/ai'
 
 export default function AuthorLayout({ children, frontMatter }) {
   const {
@@ -47,12 +47,12 @@ export default function AuthorLayout({ children, frontMatter }) {
             <div className="flex flex-col pt-3">
               <a
                 className="rounded-full border px-8 py-2 text-center text-sm font-light text-gray-700 transition-colors hover:border-[#1DA1F2] hover:bg-[#1DA1F2] hover:text-white hover:shadow dark:text-white"
-                href="https://twitter.com/messages/compose?recipient_id=4302974298&text=Hey Parth"
-                data-screen-name="@_ParthDesai_"
+                href="https://www.linkedin.com/in/akkirajuneelima/"
+                data-screen-name="Neelima Akkiraju"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <AiOutlineTwitter className="mr-2 mb-0.5 inline h-5 w-5" />
+                <AiOutlineLinkedin className="mr-2 mb-0.5 inline h-5 w-5" />
                 Say Hi!
               </a>
             </div>
@@ -67,13 +67,13 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDelay={300}
                 animationDuration={3000}
               >
-                {text1} Currently, I am focused on building data pipelines and automating them at{' '}
-                <Link
+                {text1} Currently, I am focused on building Responsive UI using Frontend Techstack.{' '}
+                {/* <Link
                   href={'https://www.accenture.com/in-en'}
                   className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
                 >
                   Accenture
-                </Link>
+                </Link> */}
               </RoughNotation>
             </p>
             <br />
@@ -141,7 +141,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               projects with new people. Feel free to reach out if you have anything to talk about,
               you can reach me through{' '}
               <Link
-                href={'mailto:desaiparth2000@gmail.com'}
+                href={'mailto:neelimaakkiraju2001@gmail.com'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
               >
                 Mail
@@ -159,13 +159,13 @@ export default function AuthorLayout({ children, frontMatter }) {
                   </g>
                 </svg>
               </Link>{' '}
-              or{' '}
+              {/* or{' '} */}
               <Link
                 href={'https://api.whatsapp.com/send?phone=916358190818&text=hi'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
               >
-                Whatsapp
-                <svg
+                {/* Whatsapp */}
+                {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   className="ml-0.5 inline-block h-4 w-4 fill-current"
@@ -177,11 +177,11 @@ export default function AuthorLayout({ children, frontMatter }) {
                       <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z" />
                     </g>
                   </g>
-                </svg>
+                </svg> */}
               </Link>
             </p>
-            <br />
-            <p>
+            {/* <br /> */}
+            {/* <p>
               <Link
                 href={'/uses'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
@@ -190,8 +190,8 @@ export default function AuthorLayout({ children, frontMatter }) {
               </Link>{' '}
               you can see what I use on daily basis
             </p>
-            <br />
-            <h1>About this site</h1>
+            <br /> */}
+            {/* <h1>About this site</h1>
             <p>
               Welcome to my home on the internet. This site functions as a blog/portfolio, a place
               to share code and thoughts. Opinions are my own.
@@ -244,7 +244,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                   : Now page, navigation style, animations and much more.
                 </li>
               </ul>
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="mt-10 md:pl-16">

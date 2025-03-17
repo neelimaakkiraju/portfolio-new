@@ -1,29 +1,27 @@
 const experienceData = [
   {
-    title: 'Data Engineering Intern',
-    company: 'Accenture',
-    location: 'Ahmedabad, India',
+    title: 'Frontend Developer ',
+    company: 'Freelancer',
+    location: 'Remote, India',
     range: 'January 2022 - May 2022',
-    url: 'https://www.accenture.com/gr-en/about/consulting-index',
-    text1:
-      'Helped with the digital transformation of BOAT by working on their platform called ByteETL.',
+    // url: 'https://www.accenture.com/gr-en/about/consulting-index',
+    text1: 'Developed a fast pizza ordering system with React.js, Vite.js & SQLite.',
     text2:
-      'Built the encryption component for the platform using Scala and Spark which included 2 encoding functionalities : ENCRYPT and HASH.',
+      'Optimized cart & selection, reducing load times by 30%.Boosted engagement by 35% with Pizza of the Day feature.',
     text3:
-      'Created JSON wrappers for the encryption components and automated and triggered the pipelines to run at specific intervals using CronJob.',
+      'Cut code duplication by 40% using React Hooks.Ensured 99.9% uptime with Vitest testing & streamlined checkout.',
   },
   {
-    title: 'Software Engineer Analytics',
-    company: 'HOPS Healthcare',
-    location: 'Ahmedabad, India',
+    title: 'Frontend Developer',
+    company: 'AGM Global Solutions',
+    location: 'Punjab, India',
     range: 'March 2021 - June 2021',
-    url: 'https://hops.healthcare/',
-    text1:
-      'Guided by Mr. Vivek Patel, to create a pipeline that extracts essential information from informal conversations.',
+    // url: 'https://hops.healthcare/',
+    text1: 'Worked on Ecommerce Platform Boosted engagement by 30%, load times by 25%.',
     text2:
-      'Worked on creating a web app for their healthcare system for doctors to analyze and save reports.',
+      'Cut code duplication by 40% ,Improved Core Web Vitals by 20%,Increased satisfaction by 35%.',
     text3:
-      'Developed functions for automatically extracting important elements from reports using BioBERT and Regex.',
+      'Scaled apps with React Hooks,Ensured 99.9% uptime,Simplified onboarding by 15%,Enhanced navigation via audits.',
   },
 ]
 
