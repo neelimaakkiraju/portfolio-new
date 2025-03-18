@@ -128,7 +128,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
               <div className="prose max-w-none pt-10 pb-8 dark:prose-dark">{children}</div>
               <div className="grid place-items-center pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
                 <div className="flex items-center space-x-4">
-                  <TwitterShareButton
+                  {/* <TwitterShareButton
                     url={postUrl}
                     title={title}
                     via={siteMetadata.socialAccount.twitter}
@@ -140,8 +140,8 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                       fgColor="#fff"
                       bgColor="#1da1f2"
                     />
-                  </TwitterShareButton>
-                  <FacebookShareButton
+                  </TwitterShareButton> */}
+                  {/* <FacebookShareButton
                     url={postUrl}
                     quote={title}
                     className="flex items-center overflow-hidden rounded-full !bg-[#1877f2] hover:scale-110"
@@ -152,7 +152,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                       fgColor="#fff"
                       bgColor="#1877f2"
                     />
-                  </FacebookShareButton>
+                  </FacebookShareButton> */}
                   <EmailShareButton
                     body={'Check out this blog'}
                     subject={title}
@@ -181,7 +181,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                       bgColor="#0072b1"
                     />
                   </LinkedinShareButton>
-                  <RedditShareButton
+                  {/* <RedditShareButton
                     title={title}
                     url={postUrl}
                     className="flex items-center overflow-hidden rounded-full !bg-[#ff4500] hover:scale-110"
@@ -192,8 +192,8 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                       fgColor="#fff"
                       bgColor="#ff4500"
                     />
-                  </RedditShareButton>
-                  <WhatsappShareButton
+                  </RedditShareButton> */}
+                  {/* <WhatsappShareButton
                     title={title}
                     separator={' : '}
                     url={postUrl}
@@ -205,7 +205,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                       fgColor="#fff"
                       bgColor="#25D366"
                     />
-                  </WhatsappShareButton>
+                  </WhatsappShareButton> */}
                   <Link
                     href={editUrl(fileName)}
                     className="flex items-center overflow-hidden rounded-full !bg-[#5A6272] hover:scale-110"

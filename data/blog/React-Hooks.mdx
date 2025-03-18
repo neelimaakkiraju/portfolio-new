@@ -1,0 +1,100 @@
+---
+title: Understanding React Hooks
+date: '2025-03-18'
+tags: [react, hooks, javascript]
+draft: false
+summary: A deep dive into React Hooks and how they simplify state and side effects in functional components.
+---
+
+<img className="inline rounded-lg" src="/static/images/blog/react-hooks.jpg" alt="React Hooks" />
+
+React Hooks were introduced in React 16.8 to enable state management and side effects in functional components without needing class components. This blog explores key hooks and their usage.
+
+# What are React Hooks?
+
+React Hooks allow developers to use state and other React features in functional components. The most commonly used hooks include `useState`, `useEffect`, and `useContext`.
+
+<hr />
+
+## `useState`: Managing Component State
+
+The `useState` hook lets you add state to functional components.
+
+### Example:
+
+```jsx
+import { useState } from 'react'
+
+function Counter() {
+  const [count, setCount] = useState(0)
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+    </div>
+  )
+}
+```
+
+<br />
+
+## `useEffect`: Handling Side Effects
+
+The `useEffect` hook manages side effects such as data fetching, subscriptions, and DOM updates.
+
+### Example:
+
+```jsx
+import { useState, useEffect } from 'react'
+
+function Timer() {
+  const [seconds, setSeconds] = useState(0)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setSeconds((prev) => prev + 1)
+    }, 1000)
+
+    return () => clearInterval(interval) // Cleanup function
+  }, [])
+
+  return <p>Timer: {seconds} seconds</p>
+}
+```
+
+<br />
+
+## `useContext`: Managing Global State
+
+The `useContext` hook provides a way to share values between components without prop drilling.
+
+### Example:
+
+```jsx
+import { createContext, useContext } from 'react'
+
+const ThemeContext = createContext('light')
+
+function ThemeButton() {
+  const theme = useContext(ThemeContext)
+  return <button className={theme}>Click me</button>
+}
+```
+
+<br />
+
+# Advanced Hooks
+
+React also provides additional hooks such as:
+
+- `useReducer` for complex state logic
+- `useMemo` and `useCallback` for performance optimizations
+- `useRef` for referencing DOM elements without re-rendering
+
+Understanding and leveraging these hooks effectively can improve the structure and performance of React applications.
+
+<br />
+
+## Conclusion
+
+React Hooks make it easier to handle state, side effects, and global data in functional components, reducing the need for class components and improving code readability.
