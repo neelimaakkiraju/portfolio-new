@@ -1,9 +1,9 @@
 const siteMetadata = {
-  title: 'Blog | Neelima',
+  title: 'Portfolio | Neelima',
   author: 'Neelima',
-  headerTitle: 'Mere Musings',
+  headerTitle: 'Portfolio',
   description: 'My portfolio, where I share my tech background',
-  snippets: 'Reuseable code snippets collected by Parth',
+  // snippets: 'Reuseable code snippets collected by Parth',
   language: 'en-us',
   theme: 'system', // system, dark or light
   // siteUrl: 'https://musing.vercel.app',
