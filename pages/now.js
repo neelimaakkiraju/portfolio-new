@@ -77,7 +77,7 @@ export default function Now(currentlyReading) {
     return () => clearInterval(timer)
   }, [])
 
-  var ParthBirthDate = '2000-04-16'
+  var ParthBirthDate = '2000-05-29'
   var birthDate = new Date(ParthBirthDate)
 
   var ParthAge = year - birthDate.getFullYear()
@@ -141,7 +141,7 @@ export default function Now(currentlyReading) {
         <div>
           <div className="flex justify-between gap-5">
             <div className="mt-2 mb-10 w-1/2 rounded-md border border-gray-600 p-1 text-sm dark:border-gray-200">
-              <span className="ml-2 font-semibold">Location:</span> <span>Ahmedabad, India</span>
+              <span className="ml-2 font-semibold">Location:</span> <span>Tirupati, India</span>
               <br />
               <span className="ml-2 font-semibold">Weather:</span>{' '}
               <span>
@@ -213,23 +213,25 @@ export default function Now(currentlyReading) {
         {/* Work */}
         <div className="pb-4">
           <p>
-            I work as a Data Engineer at{' '}
+            Frontend Developer at{' '}
             <Link
-              href={'https://www.accenture.com/'}
+              href={'https://www.agmglobalsolutions.com/'}
               className="special-underline no-underline dark:text-gray-100 hover:dark:text-gray-100"
             >
-              Accenture
+              AGM Global Solutions
             </Link>
-            .
+            Building interactive, scalable, and responsive web applications using React.js and
+            modern JavaScript frameworks
           </p>
           <br />
           <p>
-            I work on building pipelines and automating the entire process using Scala and Gcloud.
+            Experienced in State Management – Proficient in using Redux, Zustand, and Context API to
+            manage complex application states effectively.
           </p>
           <br />
           <p>
-            I have been trying to shift my field from Data Engineering to Data Science. I have been
-            constantly applying for the same as well.
+            Specializing in React.js, Next.js, and TypeScript – Passionate about developing dynamic
+            UI components and enhancing performance with optimized code.
           </p>
           <br />
           <p>
@@ -240,12 +242,10 @@ export default function Now(currentlyReading) {
           <p>
             I'm always trying to learn more, and at the moment I'm trying to follow this{' '}
             <Link
-              href={
-                'https://www.youtube.com/watch?v=_u-PaJCpwiU&list=PLu0W_9lII9ai6fAMHp-acBmJONT7Y4BSG'
-              }
+              href={'https://www.youtube.com/@freecodecamp'}
               className="special-underline no-underline dark:text-gray-100 hover:dark:text-gray-100"
             >
-              Machine Learning tutorial
+              Frontend tutorials.
             </Link>
             .
           </p>
@@ -257,29 +257,29 @@ export default function Now(currentlyReading) {
         {/* Personal life */}
         <div className="pt-6">
           <p>
-            I've been slowly building this website, trying to share interesting things with anyone
-            who wants to read it.{' '}
+            Strong UI/UX Focus – Enthusiastic about crafting visually appealing, accessible, and
+            user-friendly interfaces using Tailwind CSS, Bootstrap, and Material UI.{' '}
             <Link
-              href={'https://www.swyx.io/learn-in-public'}
+              href={'https://www.youtube.com/@freecodecamp'}
               className="special-underline no-underline dark:text-gray-100 hover:dark:text-gray-100"
             >
               This
-            </Link>{' '}
-            article is a great reason to start your blog.
+            </Link>
+            {''}
+            Page is a great reason to start your coding.
           </p>
           <br />
           <p>
-            I am also going to start applying for Masters in Data Science in August 2022 for intake
-            of Fall 2023. I hope to get a good university near the West Coast. I'll update this page
-            after I get my admits.
+            Passionate About Performance Optimization – Continuously improving load times, reducing
+            bundle sizes, and optimizing Lighthouse scores for better SEO and user experience.
           </p>
           <br />
           <p>
-            I recently started to draft a post about my new Obsidian worklfow, it will be a good
-            one!
+            Actively Seeking Growth – Open to remote and onsite opportunities that allow continuous
+            learning, collaboration, and professional development in frontend engineering.
           </p>
         </div>
-        <div className="mt-3 text-sm">
+        {/* <div className="mt-3 text-sm">
           For more examples of folks with /now pages, check out{' '}
           <Link
             href={'https://nownownow.com/'}
@@ -288,7 +288,7 @@ export default function Now(currentlyReading) {
             nownownow.com
           </Link>
           .
-        </div>
+        </div> */}
       </div>
     </>
   )

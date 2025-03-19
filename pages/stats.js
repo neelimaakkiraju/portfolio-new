@@ -36,7 +36,7 @@ export default function Stats() {
           </div>
           <div className="grid w-full grid-cols-1 gap-4 py-2 sm:grid-cols-2">
             <Twitter type="total_tweets" />
-            <Analytics />
+            {/* <Analytics /> */}
           </div>
         </div>
         <h2 className="mb-4 mt-16 text-3xl font-bold tracking-tight text-black dark:text-white">

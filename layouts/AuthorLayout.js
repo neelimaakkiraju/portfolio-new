@@ -88,11 +88,11 @@ export default function AuthorLayout({ children, frontMatter }) {
             </p>
             <br />
             <p className="sm:block md:hidden lg:hidden">
-              I am always looking to learn new things. I am currently working on a few projects
-              related to
+              I am always eager to learn new technologies and enhance my skills.
               <span className="font-semibold">
                 {' '}
-                Natural Language Processing and Machine Learning.{' '}
+                Currently, I am working on frontend development projects using React.js, focusing on
+                building interactive and user-friendly web applications.
               </span>
               At the same time I am{' '}
               <RoughNotation
@@ -103,13 +103,12 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDuration={3000}
                 multiline={true}
               >
-                actively on the lookout for remote internships which I can pursue in field of Data
-                Science.
+                actively on the lookout for remote opprtunities which I can pursue in field of
+                Frontend UI Development
               </RoughNotation>
             </p>
             <p className="hidden md:block">
-              I am always looking to learn new things. I am currently working on a few projects
-              related to{' '}
+              I am always looking to learn new things.{' '}
               <RoughNotation
                 animationDelay="1000"
                 animationDuration="3000"
@@ -119,7 +118,8 @@ export default function AuthorLayout({ children, frontMatter }) {
                 show={true}
               >
                 <span className="text-black dark:text-white">
-                  Natural Language Processing and Machine Learning.{' '}
+                  Currently, I am working on frontend development projects using React.js, focusing
+                  on building interactive and user-friendly web applications.{' '}
                 </span>
               </RoughNotation>
               At the same time I am{' '}
@@ -131,8 +131,8 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDuration={3000}
                 multiline={true}
               >
-                actively on the lookout for remote internships which I can pursue in field of Data
-                Science
+                actively on the lookout for remote Opportunities which I can pursue in field of
+                Frontend Development.
               </RoughNotation>
             </p>
             <br />
