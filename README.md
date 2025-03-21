@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center">
-  Personal Blog - <em>Mere Musings</em>
+  Portfolio - <em></em>
 </h1>
 
 <p align="center">
@@ -20,7 +20,7 @@
 
 </div>
 
-![demo](https://github.com/pycoder2000/blog/raw/master/public/static/images/demo.png)
+![demo](C:\Users\neeli\Documents\GitHub\portfolio-new\public\static\images\demo.png)
 
 <div align="center">
 
