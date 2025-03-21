@@ -1,6 +1,6 @@
 ---
 name: Neelima
-avatar: /static/images/avatar.jpeg
+avatar: /static/images/Avatar.png
 occupation: Frontend Developer
 company: Freelancer
 email: neelimaakkiraju2001@gmail.com
