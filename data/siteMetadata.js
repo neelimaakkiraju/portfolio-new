@@ -9,7 +9,7 @@ const siteMetadata = {
   // siteUrl: 'https://musing.vercel.app',
   siteRepo: 'https://github.com/neelimaakkiraju',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
+  image: '/static/images/Avatar.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'neelimaakkiraju2001@gmail.com',
   github: 'https://github.com/neelimaakkiraju',
