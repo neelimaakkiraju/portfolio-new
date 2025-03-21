@@ -88,7 +88,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                           alt="avatar"
                           className="h-10 w-10 rounded-full"
                           placeholder="blur"
-                          blurDataURL="/static/images/SVG-placeholder.png"
+                          blurDataURL="/static/images/Avatar.png"
                         />
                       )}
                       <dl className="whitespace-nowrap text-sm font-medium leading-5">

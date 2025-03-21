@@ -20,7 +20,7 @@
 
 </div>
 
-![demo](C:\Users\neeli\Documents\GitHub\portfolio-new\public\static\images\demo.png)
+![demo](https://github.com/neelimaakkiraju/portfolio-new/blob/master/public/static/images/demo.png)
 
 <div align="center">
 
