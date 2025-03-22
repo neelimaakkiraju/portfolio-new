@@ -5,7 +5,7 @@ import { BlogSEO } from '@/components/SEO'
 import Image from '@/components/Image'
 import ViewCounter from '@/components/ViewCounter'
 import Tag from '@/components/Tag'
-import siteMetadata from '@/data/siteMetadata'
+import siteMetadata, { github } from '@/data/siteMetadata'
 import Comments from '@/components/comments'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 import {
@@ -20,13 +20,13 @@ import { SocialIcon } from 'react-social-icons'
 import { HiOutlinePencil, HiOutlineClock, HiOutlineEye } from 'react-icons/hi'
 import { BsCalendarDate } from 'react-icons/bs'
 
-const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
+const editUrl = (fileName) => `${siteMetadata.github}`
 
 const postDateTemplate = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
 
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
   const { slug, fileName, date, title, images, tags, readingTime } = frontMatter
-  const postUrl = `${siteMetadata.siteUrl}/blog/${slug}`
+  const postUrl = `${siteMetadata.linkedin}`
   return (
     <SectionContainer>
       <BlogSEO
@@ -170,7 +170,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   <LinkedinShareButton
                     summary={'Check out this blog'}
                     title={title}
-                    source={siteMetadata.siteUrl}
+                    source={siteMetadata.linkedin}
                     url={postUrl}
                     className="flex items-center overflow-hidden rounded-full !bg-[#0072b1] hover:scale-110"
                   >
@@ -208,6 +208,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   </WhatsappShareButton> */}
                   <Link
                     href={editUrl(fileName)}
+                    url={github}
                     className="flex items-center overflow-hidden rounded-full !bg-[#5A6272] hover:scale-110"
                   >
                     <SocialIcon
